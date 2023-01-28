@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Landing Page</title>
-        <link rel = "stylesheet" href = "style.css">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <link rel = "stylesheet" href = "styles/style.css">
     </head>
-    <body>
-        
-        <div class = "flex-container" id = "header-container">
-            <div class = "flex-container" id = "nav-container">
-                <div class = "line-item">
-                    <p>Header logo</p>
-                </div>
-                <div class = "line-item">
-                    <a href = "">header link one</a>
-                    <a href = "">header link two</a>
-                    <a href = "">header link three</a>
-                </div>
-            </div>
-            <div class = "flex-container">
-                <div class = "flex-container">
-                    <div class = "line-item">
-                        <h3>This website is awesome</h3>
-                        <h1>This website has a subtext</h1>
-                        <button type = "button">Sign up</button>
+	<body>
+            <div class = "page flex-container vertical-flex">
+                <div class = "header-container flex-item">
+                    <div class = "nav-container flex-container horizontal-flex">
+                        <div class = "header-logo flex-item">
+                            <p>Header logo</p>
+                        </div>
+                        <div class = "links flex-item">
+                            <a href = "">header link one</a>
+                            <a href = "">header link two</a>
+                            <a href = "">header link three</a>
+                        </div>
+                    </div>
+                    <div class = "header-content-container flex-item flex-container horizontal-flex">
+                        <div class = "left-header-container flex-container vertical-flex flex-item">
+                            <h3>This website is awesome</h3>
+                            <h1>This website has some subtext</h1>
+                            <button type = "button">Sign up</button>
+                        </div>
+                        <div class = "right-header-container flex-item">
+                            <p>this is a placeholder for an image</p>
+                        </div>
                     </div>
                 </div>
-                <div class = "line-item">
-                    <p>this is a placeholder for an image</p>
+                <div class = "information-container flex-item">
+                    <h2>Some random information</h2>
+                    <div class = "illustrations-container flex-container horizontal-flex">
+                        <div class = "illustration-one flex-item">
+                            <p>This is some text under the first illustration</p>
+                        </div>
+                        <div class = "illustration-two flex-item">
+                            <p>This is some text under the second illustration</p>                            
+                        </div>
+                        <div class = "illustration-three flex-item">
+                            <p>This is some text under the third illustration</p>
+
+                        </div>
+                        <div class = "illustration-four flex-item">
+                            <p>This is some text under the fourth illustration</p>                            
+                        </div>
+                    </div>
+                </div>
+                <div class = "quote-container flex-item">
+                    <p>quote</p>
+                </div>
+                <div class = "call-to-action-container flex-item">
+                    <p>call-to-action</p>
                 </div>
             </div>
-        </div>
-        
-
-        <div class = flex-container>
-
-        </div>
-        
-        <div class = flex-container>
-
-        </div>
-
-        <div class = flex-container>
-
-        </div>
-
-        <div class = flex-container>
-
-        </div>
-    </body>
+	</body>
 </html>
