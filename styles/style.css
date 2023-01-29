@@ -14,3 +14,9 @@
 .header-link{
     padding: 20px;
 }
+.rounded-square{
+    border: 2px solid blue;
+    border-radius:10px;
+    width: 100px;
+    height: 100px;
+}
